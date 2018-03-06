@@ -8,7 +8,7 @@ grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
 
 apps:
-  tox-kz6fittyent:
+  tox:
     command: tox
     environment: 
       LC_ALL: C.UTF-8
@@ -21,7 +21,7 @@ parts:
   my-part:
     source: https://github.com/kz6fittycent/tox
     source-type: git
-    plugin: python3
+    plugin: python
     
     build-packages:
       - python3
