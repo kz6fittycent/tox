@@ -1,5 +1,5 @@
 
-name: tox # check to see if it's available
+name: tox-kz6fittycent # check to see if it's available
 version: '3.0.0.0+git' # check versioning
 summary: tox aims to automate and standardize testing in Python # 79 char long summary
 description: |
@@ -8,7 +8,7 @@ grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
 
 apps:
-  tox:
+  tox-kz6fittyent:
     command: tox
     environment: 
       LC_ALL: C.UTF-8
