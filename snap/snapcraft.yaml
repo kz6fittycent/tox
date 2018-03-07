@@ -1,15 +1,16 @@
 
 name: tox-kz6fittycent # check to see if it's available
-version: '3.0.0.1+git' # check versioning
+version: '3.0.0.2+git' # check versioning
 summary: tox aims to automate and standardize testing in Python # 79 char long summary
 description: |
-    Tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python software.
+    tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python software.
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
 
 apps:
   tox:
     command: tox
+    alias: tox
     environment: 
       LC_ALL: C.UTF-8
     plugs:
