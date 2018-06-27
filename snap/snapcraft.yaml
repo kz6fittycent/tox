@@ -1,6 +1,6 @@
 
 name: tox-kz6fittycent # check to see if it's available
-version: '3.0.0.5+git' # check versioning
+version: '3.0.0.6+git' # check versioning
 summary: tox aims to automate and standardize testing in Python # 79 char long summary
 description: |
     tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python software.
